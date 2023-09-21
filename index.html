@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap" rel="stylesheet">
     <title>Portfólio</title>
 </head>
+
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav>
+            <a class="cabecalho__menu__link" href="index.html">HOME</a>
+            <a class="cabecalho__menu__link" href="about.html">QUEM SOU</a>
+        </nav>
+    </header>
+
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">
-                Eleve seu negócio digital a outro nível 
+                Eleve seu negócio digital a outro nível
                 <strong class="titulo-Destaque">
                     com um Front-end de qualidade
                 </strong>
             </h1>
             <p class="apresentacao__conteudo__texto">
-                Olá! Meu nome é Bruno, sou estudante da FEMA e estou iniciando meus estudos em <strong >HTML, JS e CSS.</strong> 
+                Olá! Meu nome é Bruno, sou estudante da <strong>Ciência da Computação na FEMA.</strong> Atualmente estou estagiando na
+                <strong>VSM Informática</strong> como analista de suporte técnico. Estou iniciando meus estudos em <strong>HTML, JS e
+                CSS.</strong>
             </p>
 
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.instagram.com/bruno_couttiinho/">
-                    Instagram
+
+                <a class="apresentacao__links__link" href="https://www.instagram.com/bruno_couttiinho/" target="_blank">
+                    <img src="assetes/instagram.png">
+                    instagram
                 </a>
-                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/bruno-terribile-84ba2a239/">
-                    <img src="assetes/desenvolvedor.png">
-                    Linkedin
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/bruno-terribile-84ba2a239/"
+                    target="_blank">
+                    <img src="assetes/linkedin.png">
+                    linkedin
                 </a>
             </div>
         </section>
-        <img class="apresentacao__imagem" src="desenvolvedor.png" alt="Foto do desenvolvedor Bruno">
+        <img class="apresentacao__imagem" src="assetes/desenvolvedor.png" alt="Foto do desenvolvedor Bruno">
     </main>
-    <footer></footer>
+
+    <footer class="rodape">
+        <p>Todos os direitos reservados @ 2023 | FEMA</p>
+    </footer>
 
     <script src="index.js"></script>
 </body>
+
 </html>
