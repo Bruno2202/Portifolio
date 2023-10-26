@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap" rel="stylesheet">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav>
+            <a class="cabecalho__menu__link" href="index.html">HOME</a>
+            <a class="cabecalho__menu__link" href="about.html">QUEM SOU</a>
+            <a class="cabecalho__menu__link" href="case.html">QUEM SOU</a>
+            <a class="cabecalho__menu__link" href="contato.html">CONTATO</a>
+        </nav>
+    </header>
+
+    <main class="apresentacao">
+        <form id="formulario-contato" method="post">
+            <div class="apresentacao__formulario">
+                <label class="apresentacao__formulario__label" for="nome">Nome:</label>
+                <input class="apresentacao__formulario__input" type="text" id="nome" name="nome" maxlength="100" placeholder="Informe o seu nome" required>
+            </div>
+
+            <div class="apresentacao__formulario">
+                <label class="apresentacao__formulario__label" for="email">Email:</label>
+                <input class="apresentacao__formulario__input" type="email" id="nome" name="nome" maxlength="100" placeholder="Informe o seu email" required>
+            </div>
+
+            <div class="apresentacao__formulario">
+                <label class="apresentacao__formulario__label" for="mensagem">Mensagem:</label>
+                <textarea class="apresentacao__formulario__textarea" type="text" id="mensagem" name="mensagem" maxlength="300" placeholder="Digite sua mensagem" rows="4" required></textarea>
+            </div>
+
+            <div>
+                <button class="apresentacao__botao" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <p>Todos os direitos reservados @ 2023 | FEMA</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
